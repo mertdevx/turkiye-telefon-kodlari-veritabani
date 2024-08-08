@@ -1,35 +1,44 @@
 # Türkiye Telefon Kodları Veritabanı
 
-Bu veritabanı, Türkiye'deki şehirlerin telefon kodlarını ve diğer bilgilerini içerir. Aşağıda, veritabanındaki `sehirler` tablosunun yapısı hakkında bilgi bulabilirsiniz.
+Bu proje, Türkiye'deki tüm şehirlerin telefon kodlarını içeren bir veritabanını sağlar. Veritabanı, şehir adı, plaka kodu, telefon kodu ve posta kodu gibi bilgilerle birlikte gelir. Bu, çeşitli projelerinizde kullanabileceğiniz kapsamlı bir kaynaktır.
 
-## Tablo Yapısı
+## Veritabanı Detayları
 
-### `sehirler` Tablosu
+- **Tablo Adı:** `sehirler`
+- **Sütunlar:**
+  - `id`: Benzersiz veri kimliği
+  - `adi`: Şehrin adı
+  - `plaka`: Şehrin plaka kodu
+  - `telkod`: Şehrin telefon kodu
+  - `zipcode`: Şehrin posta kodu
 
-- **id**: Şehirlerin benzersiz kimlik numarası (int).
-- **adi**: Şehir adı (varchar).
-- **plaka**: Şehrin plaka kodu (int).
-- **telkod**: Şehrin telefon kodu (varchar).
-- **zipcode**: Şehir için posta kodu (varchar).
+## Kullanım
 
----
+Bu veritabanını projelerinize entegre ederek, Türkiye'nin herhangi bir şehrine ait telefon kodu ve diğer bilgileri kolayca sorgulayabilirsiniz.
+
 ## Lisans
 
 Bu proje [GNU Genel Kamu Lisansı v3.0](LICENSE) ile lisanslanmıştır.
 
-# Turkey Phone Codes Database
+---
 
-This database contains phone codes and other information for cities in Turkey. Below is the structure of the `sehirler` table.
+# Turkey Phone Code Database
 
-## Table Structure
+This project provides a comprehensive database of phone codes for cities across Turkey. The database includes information such as city name, license plate code, phone code, and postal code. It is a valuable resource that can be integrated into various projects.
 
-### `sehirler` Table
+## Database Details
 
-- **id**: Unique identifier for cities (int).
-- **adi**: City name (varchar).
-- **plaka**: City license plate code (int).
-- **telkod**: City phone code (varchar).
-- **zipcode**: Postal code for the city (varchar).
+- **Table Name:** `sehirler`
+- **Columns:**
+  - `id`: Unique data identifier
+  - `adi`: City name
+  - `plaka`: City license plate code
+  - `telkod`: City phone code
+  - `zipcode`: City postal code
+
+## Usage
+
+You can integrate this database into your projects to easily query phone code and other information for any city in Turkey.
 
 ## License
 
